@@ -1,88 +1,85 @@
-html,body{
-    font-family: 'Raleway';
-    background: #fff;
+html, body {
+  font-family: 'Raleway';
+  background: #fff;
 }
-
-.navbar{
-    margin: 0;
-    padding: 0;
+.navbar {
+  margin: 0;
+  padding: 0;
 }
-
-.em-text{
-    color: #1caa98;
+.em-text {
+  color: #1caa98;
 }
-
-.jumbotron{
-    background: url(../images/beach.jpeg) no-repeat top center;
-    background-size: cover;
-    color: #fff;
-    height: 580px;
-    overflow: none;
-    padding: 0;
-    margin: 0;
+.jumbotron {
+  background: url(../images/beach.jpeg) no-repeat top center;
+  background-size: cover;
+  color: #fff;
+  height: 580px;
+  overflow: none;
+  padding: 0;
+  margin: 0;
 }
-
-.app-text{
-    font-family: 'Lato';
-    margin-top: 160px;
+.app-text {
+  font-family: 'Lato';
+  margin-top: 160px;
 }
-
-.app-text h1,p{
-    padding-bottom: 25px;
+.app-text h1, p {
+  padding-bottom: 25px;
 }
-
-.jumbotron .hand-pic{
-    margin-top: 48px;
+.jumbotron .hand-pic {
+  margin-top: 48px;
 }
-
-#columns{
-    background: rgba(0,0,0,0) !important;
-    height: 320px;
+#columns {
+  background: rgba(0, 0, 0, 0) !important;
+  height: 320px;
 }
-
-.all-columns{
-    padding-top: 80px;
-    font-family: 'Lato';
-    color: #444;
+.all-columns {
+  padding-top: 80px;
+  font-family: 'Lato';
+  color: #444;
 }
-
-.col-text>h1{
-    font-size: 25px;
+.col-text>h1 {
+  font-size: 25px;
 }
-
-.col-text>p{
-    font-size: 12px;
+.col-text>p {
+  font-size: 12px;
 }
-
-#features{
+#features {
   background: #1caa98;
   color: #fff;
   padding: 40px;
   overflow: auto;
 }
-
-#features ul li{
+#features ul li {
   font-size: 18px;
   list-style: none;
   line-height: 2em;
 }
 
-footer{
+section#title-bar{
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  background: #1caa98;
+  color: #fff;
+}
+
+section#title-bar h1{
+  margin-bottom: 20px;
+}
+
+footer {
   padding: 30px 0 20px 0;
   color: #fff;
   background: #333;
 }
-
-footer li{
+footer li {
   float: left;
   padding: 0 10px 0 10px;
   list-style: none;
 }
-
-footer a{
+footer a {
   color: #fff;
 }
-
-footer p{
+footer p {
   float: right;
 }
